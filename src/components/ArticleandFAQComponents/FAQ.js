@@ -62,27 +62,27 @@ function FAQ() {
         <div>
             <div onClick={dropdownFunction} className="faq-container" >
                 <h2>{QArray[0].question}</h2>
-                <h2 className="drop-down-sign">{dropdown["What is famous"] ? "✖️" : "➕"}</h2>
+                <h2 className="drop-down-sign">{dropdown["What is famous"] ? <i class='fas fa-angle-up' style={{fontSize:"36px"}}></i> : <i class='fas fa-angle-down' style={{fontSize:"36px"}}></i> }</h2>
             </div>
             {dropdown["What is famous"] && <h2 className="drop-down-para">{QArray[0].answer}</h2>}
             <div onClick={dropdownFunction} className="faq-container" >
                 <h2>{QArray[1].question}</h2>
-                <h2 className="drop-down-sign">{dropdown["What is not so"] ? "✖️" : "➕"}</h2>
+                <h2 className="drop-down-sign">{dropdown["What is not so"] ? <i class='fas fa-angle-up' style={{fontSize:"36px"}}></i> : <i class='fas fa-angle-down' style={{fontSize:"36px"}}></i>}</h2>
             </div>
             {dropdown["What is not so"] && <h2 className="drop-down-para">{QArray[1].answer}</h2>}
             <div onClick={dropdownFunction} className="faq-container" >
                 <h2>{QArray[2].question}</h2>
-                <h2 className="drop-down-sign">{dropdown["Who should vis"] ? "✖️" : "➕"}</h2>
+                <h2 className="drop-down-sign">{dropdown["Who should vis"] ? <i class='fas fa-angle-up' style={{fontSize:"36px"}}></i> : <i class='fas fa-angle-down' style={{fontSize:"36px"}}></i>}</h2>
             </div>
             {dropdown["Who should vis"] && <h2 className="drop-down-para">{QArray[2].answer}</h2>}
             <div onClick={dropdownFunction} className="faq-container" >
                 <h2>{QArray[3].question}</h2>
-                <h2 className="drop-down-sign">{dropdown["What is the be"] ? "✖️" : "➕"}</h2>
+                <h2 className="drop-down-sign">{dropdown["What is the be"] ? <i class='fas fa-angle-up' style={{fontSize:"36px"}}></i> : <i class='fas fa-angle-down' style={{fontSize:"36px"}}></i>}</h2>
             </div>
             {dropdown["What is the be"] && <h2 className="drop-down-para">{QArray[3].answer}</h2>}
             <div onClick={dropdownFunction} className="faq-container" >
                 <h2>{QArray[4].question}</h2>
-                <h2 className="drop-down-sign">{dropdown["What is the lo"] ? "✖️" : "➕"}</h2>
+                <h2 className="drop-down-sign">{dropdown["What is the lo"] ? <i class='fas fa-angle-up' style={{fontSize:"36px"}}></i> : <i class='fas fa-angle-down' style={{fontSize:"36px"}}></i>}</h2>
             </div>
             {dropdown["What is the lo"] && <h2 className="drop-down-para">{QArray[4].answer}</h2>}
         </div>

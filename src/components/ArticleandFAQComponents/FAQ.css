@@ -12,6 +12,13 @@
     color:aqua;
   }
   .faq-container {
+    width: 400px;
+    height: 200px;
+    background-color: #fff;
+    border: solid 1px #fff;
+    box-shadow:
+    inset 60px 0 120px #f0f,
+    inset -60px 0 120px #0ff;
     position: relative;
     display: flex;
     margin-top: 1vh;
@@ -23,13 +30,18 @@
     width: 68vw;
     height:60px!important;
     height: 6vh;
-    background-color: grey;
+    
   }
   .drop-down-sign {
     position: absolute;
     left: 65vw;
   }
   .drop-down-para {
+    background-color: #fff;
+    border: solid 1px #fff;
+    box-shadow:
+    inset 60px 0 120px #f0f,
+    inset -60px 0 120px #0ff;
     text-align: left;
     width: 68vw;
     padding: 2vh 0vw;

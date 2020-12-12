@@ -3,6 +3,9 @@ import React from "react";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom"
 import MainPage from "./components/MainPage";
 import ArticlePage from './components/ArticlePage'
+import ActivitiPage from './components/ActivitiPage'
+import GalleryPage from './components/GalleryPage'
+import PlacesPage from './components/PlacesPage'
 const App =()=>{
   return (
     <div className="App">
@@ -10,7 +13,9 @@ const App =()=>{
         <Switch>
           <Route exact path="/" component={MainPage} />
           <Route exact path="/articles" component={ArticlePage}/>
-          <Route exact path="/gallery" render={() => {window.location.href="./components/Gallery.html"}} />
+          <Route exact path="/activities" component={ActivitiPage}/>
+          <Route exact path="/gallery" component={GalleryPage}/>
+          <Route exact path="/places" component={PlacesPage}/>
         </Switch>
       </Router>
     </div>

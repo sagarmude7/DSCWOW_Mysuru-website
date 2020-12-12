@@ -5,25 +5,6 @@ import { Link } from 'react-router-dom';
 function Footer() {
   return (
     <div className='footer-container'>
-      <section className='footer-subscription'>
-        <p className='footer-subscription-heading'>
-          GO , Explore and Enjoy the beauty of Mysore
-        </p>
-        <p className='footer-subscription-text'>
-          Visit our website , It's Absolutely Free !!!
-        </p>
-        <div className='input-areas'>
-          <form>
-            <input
-              className='footer-input'
-              name='email'
-              type='email'
-              placeholder='Your Email'
-            />
-            <Button buttonStyle='btn--outline'>Join Us</Button>
-          </form>
-        </div>
-      </section>
       <div class='footer-links'>
         <div className='footer-link-wrapper'>
           <div class='footer-link-items'>
@@ -57,8 +38,7 @@ function Footer() {
         <div class='social-media-wrap'>
           <div class='footer-logo'>
             <Link to='/' className='social-logo'>
-              Mysor
-              <img style={{width:"40px" , height:"40px"}} src={'https://cdn.discordapp.com/attachments/784324842425548840/786881399462166558/Mysuru_festival_pink.png'} alt="Logo" />
+              <img style={{width:"70px" , height:"70px"}} src={'https://cdn.discordapp.com/attachments/784324842425548840/786881399462166558/Mysuru_festival_pink.png'} alt="Logo" />
             </Link>
           </div>
           <small class='website-rights'>Mysore © 2020</small>
@@ -94,14 +74,6 @@ function Footer() {
               aria-label='Twitter'
             >
               <i class='fab fa-twitter' />
-            </Link>
-            <Link
-              class='social-icon-link twitter'
-              to='/'
-              target='_blank'
-              aria-label='LinkedIn'
-            >
-              <i class='fab fa-linkedin' />
             </Link>
           </div>
         </div>
