@@ -60,10 +60,10 @@
 }
 
 .u-section-1 .u-text-1 {
-  letter-spacing: 2px;
   text-transform: uppercase;
   font-weight: 700;
-  margin: 0 auto 0 1px;
+  letter-spacing: 3px;
+  margin: 0 1px;
 }
 
 .u-section-1 .u-text-2 {
@@ -149,6 +149,7 @@
   }
 
   .u-section-1 .u-text-1 {
+    margin-right: 0;
     margin-left: 0;
   }
 
