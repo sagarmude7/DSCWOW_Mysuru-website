@@ -1,0 +1,57 @@
+.Faq-container {
+    width: 100vw;
+    padding-bottom: 10vh;
+    background-color: black;
+    margin-top: 1vh;
+    text-align: center;
+  }
+  .Faq-container-header {
+    padding-top: 5%;
+    padding-bottom: 3.5%;
+    font-size: 350%;
+    color:aqua;
+  }
+  .faq-container {
+    width: 400px;
+    height: 200px;
+    background-color: #fff;
+    border: solid 1px #fff;
+    box-shadow:
+    inset 60px 0 120px #f0f,
+    inset -60px 0 120px #0ff;
+    position: relative;
+    display: flex;
+    margin-top: 1vh;
+    margin-left: 15vw;
+    margin-right: 15vw;
+    padding-left: 2%;
+    padding-top: 2vh;
+    font-size: 125%;
+    width: 68vw;
+    height:60px!important;
+    height: 6vh;
+    
+  }
+  .drop-down-sign {
+    position: absolute;
+    left: 65vw;
+  }
+  .drop-down-para {
+    background-color: #fff;
+    border: solid 1px #fff;
+    box-shadow:
+    inset 60px 0 120px #f0f,
+    inset -60px 0 120px #0ff;
+    text-align: left;
+    width: 68vw;
+    padding: 2vh 0vw;
+    padding-left: 2vw;
+    margin-top: 1vh;
+    margin-left: 15vw;
+    margin-right: 15vw;
+    padding-top: 2vh;
+    font-size: 150%;
+    width: 68vw;
+    background-color: grey;
+  }
+  
