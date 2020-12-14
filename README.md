@@ -38,7 +38,7 @@ There are total 6 tabs for different categories:
 * Article and FAQ:  Here a few blogs and articles from bloggers and FAQ for tourists.
 
 ## Result And Demo
-You can view the complete website overview video here [Mysuru](https://drive.google.com/drive/folders/1ISLRIGxUVL2foxb01pVtudaReqO8xVfv?usp=sharing)
+You can view the complete website overview video here [Mysuru](https://www.youtube.com/watch?v=nObNnPWqyBM&feature=youtu.be)
 
 
 ## Contributors
